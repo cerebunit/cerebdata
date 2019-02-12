@@ -1,0 +1,11 @@
+{
+    "mean": 38.8,
+    "standard_deviation": 29.17680,
+    "sample_size": 106,
+    "units": "Hz",
+    "reference": "Häusser M & Clark BA (1997). Tonic synaptic inhibition modulates neuronal output pattern and spatiotemporal synaptic integration. Neuron 19, 665-678. doi: 10.1016/S0896-6273(00)80379-7",
+    "protocol": "Recordings were made from visually identified neurons in 250-350 μm thick slices of cerebellum from 18- to 32-day-old Wistar rats using previously described techniques (73, 71). Slices were cut with a vibratome (DTK-1000, Dosaka) in either the sagittal or coronal plane and were perfused continuously with an oxygenated Ringer's solution containing (in mM): 125 NaCl, 25 NaHCO3, 25 glucose, 2.5 KCl, 1.25 NaH2PO4, 2 CaCl2, and 1 MgCl2 (pH 7.4 with 5% CO2). Slices were viewed with an upright microscope (Zeiss Axioskop) using infrared-differential interference contrast optics. The identification of Purkinje cells and interneurons is unambiguous and was confirmed in several cases by including biocytin in the recording pipette to reveal the full dendritic morphology of the recorded cell. All experiments were performed at 35C +/- 1C .Two noninvasive recording techniques, extracellular recording and cell-attached patch-clamp recording, to measure the activity of single Purkinje cells at temperatures close to those occurring in vivo.",
+    "validation_info": "This is the experimental data of spontaneous firing from soma of in-vitro rat (Wistar) PurkinjeCell.",
+    "data_collection": "The data given in the paper are freq.range = 1 to 148 Hz, mean = 38.8Hz and n = 106 PurkinjeCells. From Fig.1c histogram one can extrapolate median ~ 31Hz. From 10.1186/1471-2288-14-135 and considering this three statistic scenario, Zeta1 = {a, m, b; n} = {1, 31, 148; 106} and stand.dev = (b-a) / 2phi_inverse((n-0.375)/(n+0.25)) = 29.17680.",
+    "notes": "phi_inverse is qnorm(x) in R and scipy.stats.norm.ppf() in Python."
+}

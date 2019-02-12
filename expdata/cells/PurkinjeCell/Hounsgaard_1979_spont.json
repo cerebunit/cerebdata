@@ -1,0 +1,11 @@
+{
+    "mean": 27.4,
+    "standard_deviation": 14.61988,
+    "sample_size": 10,
+    "units": "Hz",
+    "reference": "Hounsgaard J (1979) Pacemaker properties of mammalian Purkinje neurons. Acta Physiol Scand 106:91-92. doi: 10.1111/j.1748-1716.1979.tb06375.x",
+    "protocol": "Intracellular recordings from 10 Purkinje cells on thin cerebellar sections from Guinea pigs. The composition of the medium was (mM): NaCI, 124; KCI, 5; KH2P04, 1,25; MgS04, 2,O; CaCI, 2; NaHCO,, 26; and glucose 10. In this medium synaptic transmission was preserved. In all cells stable, intracellular recording could be maintained for at least 20 min; in 3 cells for more than 1 h. The neurons discharged regularly after impalement with a microelectrode.",
+    "validation_info": "This is the experimental data of spontaneous firing of in-vitro PurkinjeCell from Guinea pigs",
+    "data_collection": "The data given in the paper are freq.range = 5 to 50 Hz and n = 10cells. No mean or median was given so let assume median=27.5Hz (=(50.0+5.0)/2.0). This results in three statistics. From 10.1186/1471-2288-14-135 and considering this three statistic scenario, Zeta1 = {a, m, b; n} = {5, 27.5, 50; 10} the estimated xbar = (a+2m+b)/4 + (1-2m+b)/4n = 27.4Hz. Based on the table1 in the paper, for n=10 xi(n)=3.078 and stan.dev = (b-1)/xi(n) = 14.61988.",
+    "notes": "The generation of spontaneous action potentials stopped during a hyperpolarizing current pulse (Fig.1 C). When the pulse terminated after more than 100ms, there was a delay until the first action potential and the first few interspike intervals were prolonged (Fig. 1C). The delay and the interspike interval increased with increasing duration and magnitude of the hyperpolarizing current. In some cells the initial part of the repolarizing phase after a long hyperpolarizing pulse was very prominent giving rise to a depolarizing overshoot (Fig. 1 D)"
+}

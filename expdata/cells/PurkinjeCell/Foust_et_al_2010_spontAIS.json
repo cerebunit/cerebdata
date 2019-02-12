@@ -1,0 +1,11 @@
+{
+    "mean": 55.0,
+    "standard_deviation": 39.82515,
+    "sample_size": 4,
+    "units": "Hz",
+    "reference": "Foust, A., Popovic, M., Zecevic, D., and McCormick, D. A. (2010). Action potentials initiate in the axon initial segment and propagate through axon collaterals reliably in cerebellar Purkinje neurons. Methods 30, 6891-6902. doi: 10.1523/JNEUROSCI.0552-10.2010",
+    "protocol": "Male or female mice (2-5 weeks of age) were deeply anesthetized with sodium pentobarbital (50 mg/kg) and killed through decapitation. The brain was rapidly removed and placed in ice-cold (<5Celsius) cutting solution containing the following (in mm): 85 NaCl, 2.5 KCl, 3.5 MgSO4, 0.5 CaCl2, 25 NaHCO3, 1.25 NaH2PO4, 10 glucose, 3 myo-inositol, 3 Na-pyruvate, 0.5 l-ascorbic acid, 75 sucrose,  sections were placed in an incubator at 35Celsius for 0.5 h in the cutting solution, and were then transferred to a chamber containing artificial CSF (in mm: 126 NaCl, 3.0 KCl, 1.0 MgSO4, 2.0 CaCl2, 26 NaHCO3, 1.25 NaH2PO4, 10 glucose, 3 myo-inositol, 2 Na-pyruvate, 0.4 l-ascorbic acid) at room temperature for at least 0.5 h before dye loading and recording in a submersion chamber.",
+    "validation_info": "This is the experimental data of spontaneous firing from AIS of in-vitro mice PurkinjeCell.",
+    "data_collection": "The data given in the paper are freq.range = 23 to 105 Hz and n = 4cells. No mean or median was given so lets assume median=41Hz ((23+105)/2). This results in three statistics. From 10.1186/1471-2288-14-135 and considering this three statistic scenario, Zeta1 = {a, m, b; n} = {23, 41, 105; 4} the estimated xbar = (a+2m+b)/4 + (1-2m+b)/4n = 55Hz. Based on the table1 in the paper, for n=4 xi(n)=2.059 and stand.dev = (b-a)/xi(n) = 39.82515.",
+    "notes": "Experimentalists claim n=15cells. Fig.2E shows 7 red diamond and 4 blue diamond, both with current injections. 4 'x' for spontaneous firing from AIS (axon initial segment). Thus, n=4cells for testing spontaneous firing."
+}
