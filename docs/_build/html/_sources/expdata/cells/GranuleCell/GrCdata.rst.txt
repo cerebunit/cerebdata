@@ -1,7 +1,0 @@
-Experimental Data for Validating Granule Cell
-*********************************************
-
-Resting Membrane Voltage
-========================
-.. raw:: html
-   :file: rawhtmls/DAngelo_et_al_1998_restVm.html
