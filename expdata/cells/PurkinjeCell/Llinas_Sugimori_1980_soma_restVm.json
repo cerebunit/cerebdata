@@ -1,0 +1,14 @@
+{
+    "mean": 66.6,
+    "SD": 2.37,
+    "sample_size": 10,
+    "units": "mV",
+    "reference": "Llinas R and Sugimori M (1980) Electrophysiological properties of in vitro Purkinje cell somata in mammalian cerebellar slices. J Physiology 305: 171-195. doi 10.1113/jphysiol.1980.sp013357",
+    "species": "guinea-pig",
+    "age": "adult",
+    "tissue_study": "in vitro",
+    "temperature": "37C",
+    "protocol": "see Fig 1A",
+    "data_collection": "see Table 2",
+    "validation_info": "This experimental data is from in-vitro cerebellar slices of adult guinea pigs. This particular data is from 10 experiments, but the authors report 157 intrasomatic recordings.",
+}
