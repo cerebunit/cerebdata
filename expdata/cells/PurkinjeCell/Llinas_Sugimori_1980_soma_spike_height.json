@@ -10,5 +10,5 @@
     "temperature": "37C",
     "protocol": "see Fig 1A",
     "data_collection": "see Table 2",
-    "validation_info": "This experimental data is from in-vitro cerebellar slices of adult guinea pigs. This particular data is from 10 experiments, but the authors report 157 intrasomatic recordings.",
+    "validation_info": "This experimental data is from in-vitro cerebellar slices of adult guinea pigs. This particular data is from 10 experiments, but the authors report 157 intrasomatic recordings."
 }
