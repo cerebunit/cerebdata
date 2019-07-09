@@ -1,6 +1,7 @@
 {
     "mean": 74.9,
     "SD": 5.77,
+    "raw_data": [75, 85, 75, 72, 73, 70, 66, 80, 70, 83],
     "sample_size": 10,
     "units": "mV",
     "reference": "Llinas R and Sugimori M (1980) Electrophysiological properties of in vitro Purkinje cell somata in mammalian cerebellar slices. J Physiology 305: 171-195. doi 10.1113/jphysiol.1980.sp013357",
