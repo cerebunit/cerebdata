@@ -1,0 +1,20 @@
+{
+    "mean": 15.1,
+    "SD": 2.98,
+    "raw_data": [10.0, 18.0, 13.0, 14.0, 18.0, 15.0, 18.0, 19.0, 15.0, 11.0],
+    "units": "Mohm",
+    "sample_size": 10,
+    "reference": "Llinas R and Sugimori M (1980) Electrophysiological properties of in vitro Purkinje cell somata in mammalian cerebellar slices. J Physiology 305: 171-195. doi 10.1113/jphysiol.1980.sp013357",
+    "species": "guinea-pig",
+    "age": "adult",
+    "tissue_study": "in vitro",
+    "protocol_parameters": {
+                             "temperature": 37.0,
+                             "initial_resting_Vm": -50.0,
+                             "current_amplitude": -0.5,
+                             "current_unit": "nA"
+                           },
+    "protocol": "See Fig 1A. Initial resting levels for >= -50 mV as the membrane is sealed around the recording pipette. Recordings for initial levels < -50 mV were discarded. To avoid delayed rectification -0.5 nA hyperpolarizing current pulses is used.",
+    "data_collection": "See Table 2.",
+    "validation_info": "This experimental data is from in-vitro cerebellar slices of adult guinea pigs. This particular data is from 10 experiments, but the authors report 157 intrasomatic recordings."
+}
