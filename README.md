@@ -2,6 +2,8 @@
 
 # CerebData
 
+[CerebData documentation](https://cerebdata.readthedocs.io/en/latest/)
+
 <div><img src="https://raw.githubusercontent.com/cerebunit/cerebdata/master/resources/images/eu_logo.jpg" alt="EU Logo" height="23%" width="15%" align="right"></div>
 
 ### ACKNOWLEDGEMENTS
