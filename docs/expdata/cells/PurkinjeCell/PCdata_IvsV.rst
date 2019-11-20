@@ -6,4 +6,7 @@ Current vs. Voltage
 .. raw:: html
    :file: rawhtmls/Llinas_Sugimori_1980_soma_IvsV.html
 
-
+TSV data
+--------
+.. raw:: html
+   :file: rawhtmls/Llinas_Sugimori_1980_soma_IvsV_Fig3E.html
