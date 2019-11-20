@@ -1,0 +1,43 @@
+{
+    "a_curve": {
+        "current": [0.4915413534, 0.4689849624, 0.4351503759, 0.3928571429, 0.367481203,
+                    0.3336466165, 0.2969924812, 0.2716165414, 0.2265037594, 0.2011278195,
+                    0.1729323308, 0.0629699248,-0.0244360902,-0.0723684211,-0.2077067669,
+                   -0.2640977444,-0.3289473684,-0.3402255639,-0.4163533835,-0.4981203008,
+                   -0.5319548872,-0.6137218045,-0.6870300752,-0.7208646617,-0.7716165414,
+                   -0.8167293233,-0.8843984962,-0.9182330827,-0.9718045113,-1.0507518797,
+                   -1.2255639098],
+        "voltage": [7.1354166667, 6.71875, 6.1979166667, 5.5208333333, 5,
+                    4.4270833333, 3.8020833333, 3.2291666667, 2.65625, 2.1354166667,
+                    1.6145833333, 0, -1.8229166667, -2.7083333333, -5.0520833333,
+                   -5.8854166667, -7.34375, -6.875, -8.4895833333, -10.3645833333,
+                   -10.3125, -11.3541666667, -13.59375, -13.9583333333, -14.84375,
+                   -15.8333333333, -17.4479166667, -17.5520833333, -19.0625, -19.84375,
+                   -22.2395833333] },
+    "b_curve": {
+        "current": [-1.2227443609, -1.0648496241, -0.9859022556, -0.9266917293, -0.8928571429,
+                    -0.8280075188, -0.7772556391, -0.7236842105, -0.7011278195, -0.6137218045,
+                    -0.5206766917, -0.5037593985, -0.4163533835, -0.337406015, -0.3402255639,
+                    -0.2669172932, -0.2246240602, -0.0780075188, -0.0328947368, 0.1898496241,
+                     0.2208646617, 0.2744360902, 0.3251879699, 0.3477443609, 0.3787593985,
+                     0.4492481203, 0.4633458647, 0.4859022556],
+        "voltage": [-18.9583333333, -16.7708333333, -16.09375, -15.4166666667, -15.2083333333,
+                    -13.4895833333, -12.65625, -12.03125, -11.71875, -9.84375,
+                    -8.125, -7.8125, -7.4479166667, -5.9895833333, -5.3645833333,
+                    -5.0520833333, -4.2708333333, -2.0833333333, -1.3020833333, 2.5,
+                     3.125, 4.375, 5.5208333333, 6.6145833333, 7.03125,
+                    10.1041666667, 10.9895833333, 17.7083333333] },
+    "current_unit": "nA",
+    "voltage_unit": "mV",
+    "reference": "Llinas R and Sugimori M (1980) Electrophysiological properties of in vitro Purkinje cell somata in mammalian cerebellar slices. J Physiology 305: 171-195. doi 10.1113/jphysiol.1980.sp013357",
+    "species": "guinea-pig",
+    "age": "adult",
+    "tissue_study": "in vitro",
+    "protocol_parameters": {
+                             "temperature": 37.0,
+                             "initial_resting_Vm": -50.0
+                           },
+    "protocol": "See Fig 1A. Initial resting levels for >= -50 mV as the membrane is sealed around the recording pipette. Recordings for initial levels < -50 mV were discarded. To avoid delayed rectification -0.5 nA hyperpolarizing current pulses is used (antidromic).",
+    "data_collection": "Fig 3E plots current vs voltage relationship with two curves: 'a'-curve ofor hyperpolarizing current step and 'b'-curve for depolarizing step. The data points were extracted using the WebPlotDigitizer https://automeris.io/WebPlotDigitizer/",
+    "validation_info": "This experimental data is from in-vitro cerebellar slices of adult guinea pigs. "
+}
